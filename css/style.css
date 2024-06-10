@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Wedding';
+    src: url('Wedding.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Alloystan';
+    src: url('Alloystan.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Hailey';
+    src: url('Hailey.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fragmentcore';
+    src: url('Fragmentcore.otf') format('opentype');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    padding-top: 70px; 
+    
+}
+
+.nombre {
+    font-family: 'Wedding', sans-serif;
+}
+
+.bg-coral {
+    background-color: rgba(243, 102, 51, 0.644);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000000 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.presentacion {
+    background-image: url('fondo1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: left; 
+    padding: 20px;
+}
+
+.presentacion h1,
+.presentacion p {
+    padding: 10px; 
+    margin-left: 20px;
+}
+
+.presentacion h1 {
+    font-family: 'Hailey', sans-serif;
+}
+
+.presentacion p {
+    font-family: 'Fragmentcore', sans-serif;
+}
+
+.responsive-image {
+    width: 50%;
+    max-width: 650px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes a {
+    font-size: 30px;
+    transition: all ease 300ms;
+}
+
+.facebook {
+    color: rgb(247, 103, 8);
+}
+
+.github {
+    color: rgb(247, 103, 8);
+}
+
+.linkedin {
+    color: rgb(247, 103, 8);
+}
+
+.instagram {
+    color: rgb(247, 103, 8);
+}
+
+.redes a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.secciones h2 {
+    font-family: 'Wedding', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.secciones p {
+    font-family: 'Fragmentcore', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.seccion1 {
+    background-image: url('fondo5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    padding: 20px;
+}
+
+.imagen-kyo {
+    width: 50%; 
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.texto {
+    flex: 1;
+    font-family: 'Fragmentcore', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.seccion2 {
+    background-image: url('fondo8.png');
+    background-size: cover;
+    padding: 1rem;
+}
+
+.figure-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
+}
+
+.figure-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.seccion2 h2, p {
+    text-align: center;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+    background-image: url("fondo9.png");
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #e4a42f8a;
+    border-radius: 20px;
+    padding: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin-top: 60px;
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 20px; 
+    margin-bottom: 50px; 
+}
+
+.card p {
+    color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #e09523;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.seccion4 {
+    background-image: url('fondo10.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 80%; 
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+}
+
+.grupo {
+    position: relative;
+    margin: 45px;
+}
+
+input {
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{ 
+    outline: none;
+    color: #5e5d5d;
+}
+
+label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color: #2196f3;
+}
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #e0b31f, #e6490b);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+
+.seccion4 button{
+    font-family: 'roboto';
+    background: #e29e0c;
+    background: -webkit-linear-gradient(to right, #e0b31f, #e6490b);
+    background: linear-gradient(to right, #e0b31f, #e6490b);
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .responsive-image {
+        margin-top: 100px;
+        content: url('iconorengoku.png');
+        display: block;
+        margin: 0 auto;
+        float: none !important;
+        width: 50%;
+        max-width: 200px;
+    }
+
+    .alterna {
+        margin-top: 100px;
+        padding-top: 40px;
+        content: url('kyo2.png');
+        display: block;
+        margin: auto;
+        float: none !important;
+        width: 50%;
+        max-width: 200px;
+    }
+
+    .figure-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .card {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+    }
+
+    form{
+        width: 100%;
+    }
+}
+

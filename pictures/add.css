@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'Wedding';
+    src: url('Wedding.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Alloystan';
+    src: url('Alloystan.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Hailey';
+    src: url('Hailey.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fragmentcore';
+    src: url('Fragmentcore.otf') format('opentype');
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+    
+}
+
+.nombre {
+    font-family: 'Wedding', sans-serif;
+}
+
+.bg-coral {
+    background-color: rgba(243, 102, 51, 0.644);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff !important;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.presentacion {
+    background-image: url('fondo1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: left; 
+    padding: 20px;
+}
+
+.presentacion h1,
+.presentacion p {
+    padding: 10px; /* Menos espacio entre las líneas */
+    margin-left: 20px;
+}
+
+.presentacion h1 {
+    font-family: 'Hailey', sans-serif;
+}
+
+.presentacion p {
+    font-family: 'Fragmentcore', sans-serif;
+}
+
+.responsive-image {
+    width: 50%;
+    max-width: 650px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes a {
+    font-size: 30px;
+    transition: all ease 300ms;
+}
+
+.facebook {
+    color: rgb(247, 103, 8);
+}
+
+.github {
+    color: rgb(247, 103, 8);
+}
+
+.linkedin {
+    color: rgb(247, 103, 8);
+}
+
+.instagram {
+    color: rgb(247, 103, 8);
+}
+
+.redes a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.secciones h2 {
+    font-family: 'Wedding', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.secciones p {
+    font-family: 'Fragmentcore', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.seccion1 {
+    background-image: url('fondo5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: row; /* Cambiado a fila para colocar la imagen al lado del texto */
+    padding: 20px;
+}
+
+.imagen-kyo {
+    width: 50%; /* Ajusta el tamaño de la imagen */
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.texto {
+    flex: 1;
+    font-family: 'Fragmentcore', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.seccion2 {
+    background-image: url('fondo7.png');
+    background-size: cover;
+    padding: 1rem;
+}
+
+/* Estilos para las imágenes */
+.imagenes img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor para las imágenes */
+.figure-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos para las imágenes dentro del contenedor */
+.figure-container img {
+    flex: 1;
+    margin: 0.5rem;
+}
+
+/* Estilos para el texto */
+.seccion2 p {
+    text-align: center;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .responsive-image {
+        margin-top: 100px;
+        content: url('iconorengoku.png');
+        display: block;
+        margin: 0 auto;
+        float: none !important;
+        width: 50%;
+        max-width: 200px;
+    }
+
+    .alterna {
+        margin-top: 100px;
+        padding-top: 40px;
+        content: url('kyo2.png');
+        display: block;
+        margin: auto;
+        float: none !important;
+        width: 50%;
+        max-width: 200px;
+    }
+
+}
+
